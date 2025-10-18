@@ -63,11 +63,26 @@
     }
 
     main {
-     <a class="game-card" href="2048/index.html" data-category="puzzle">
-  <img src="https://via.placeholder.com/250x140?text=2048" alt="2048">
-  <h2>2048</h2>
-  <p>Merge tiles to reach 2048!</p>
-</a>
+  <main id="gameList">
+
+  <!-- 2048 Game -->
+  <a class="game-card" href="2048/index.html" data-category="puzzle">
+    <img src="https://via.placeholder.com/250x140?text=2048" alt="2048">
+    <h2>2048</h2>
+    <p>Merge the numbers to reach 2048!</p>
+  </a>
+
+  <!-- Flappy Bird -->
+  <a class="game-card" href="flappy/index.html" data-category="arcade">
+    <img src="https://via.placeholder.com/250x140?text=Flappy+Bird" alt="Flappy Bird">
+    <h2>Flappy Bird</h2>
+    <p>Tap to fly and dodge the pipes!</p>
+  </a>
+
+  <!-- Dino Run -->
+  <a class="game-card" href="trex/index.html" data-category="arcade">
+    <img src="https://via.placeholder.com/250x140?text=Dino+Run" alt="Dino Run
+
 
     }
 
