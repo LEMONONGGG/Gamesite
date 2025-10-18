@@ -63,11 +63,12 @@
     }
 
     main {
-      padding: 30px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      justify-items: center;
+     <a class="game-card" href="2048/index.html" data-category="puzzle">
+  <img src="https://via.placeholder.com/250x140?text=2048" alt="2048">
+  <h2>2048</h2>
+  <p>Merge tiles to reach 2048!</p>
+</a>
+
     }
 
     .game-card {
